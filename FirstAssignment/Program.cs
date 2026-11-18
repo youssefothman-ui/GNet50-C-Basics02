@@ -74,10 +74,20 @@
             //Declare an int pages = 300; then store
             //it in a double variable without using a cast.
 
-            int pages = 300;
-            double pageValue = pages;
+            //int pages = 300;
+            //double pageValue = pages;
 
-            Console.WriteLine(pageValue);
+            //Console.WriteLine(pageValue);
+            #endregion
+
+
+
+            #region Q6
+            //Declare a double price = 49.99; then convert it into an int using a cast.
+            double price = 49.99;
+            int intPrice = (int)price;
+
+            Console.WriteLine(intPrice);
             #endregion
         }
     }
