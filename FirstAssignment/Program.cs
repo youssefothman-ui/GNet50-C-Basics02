@@ -56,19 +56,29 @@
             //catches the exception, prints "Cannot divide by
             //zero", and then prints "Done" in a finally block.
 
-            try {
-                int x = 10;
+            //try {
+            //    int x = 10;
 
-                int y = 0;
-                int sum = x / y;
-                Console.WriteLine(sum);
+            //    int y = 0;
+            //    int sum = x / y;
+            //    Console.WriteLine(sum);
 
-               
-            }
-            catch (Exception ex) { Console.WriteLine("you cannot divide by zero"); }
-            finally { Console.WriteLine("done");}
+
+            //}
+            //catch (Exception ex) { Console.WriteLine("you cannot divide by zero"); }
+            //finally { Console.WriteLine("done");}
             #endregion
 
+
+            #region Q5
+            //Declare an int pages = 300; then store
+            //it in a double variable without using a cast.
+
+            int pages = 300;
+            double pageValue = pages;
+
+            Console.WriteLine(pageValue);
+            #endregion
         }
     }
 }
