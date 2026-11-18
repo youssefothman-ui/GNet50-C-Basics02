@@ -131,17 +131,35 @@ namespace FirstAssignment
             //}
             #endregion
 
+            
             #region Q9
             //Given int pages = 464;, convert it into a string using ToString()
             //and print its type using GetType()
             //to prove it's now a string.
 
-            int pages = 464;
+            //int pages = 464;
 
-            string pagesText = pages.ToString();
+            //string pagesText = pages.ToString();
 
-            Console.WriteLine(pagesText);
-            Console.WriteLine(pagesText.GetType());
+            //Console.WriteLine(pagesText);
+            //Console.WriteLine(pagesText.GetType());
+            #endregion
+
+
+            #region Q 10
+            //Declare int copies = 100;. Box it into an object variable,
+            //then unbox it back into a new int
+            //variable, and print both
+
+
+            int copies = 100;
+
+            object obj = copies; 
+
+            int newCopies = (int)obj; 
+
+            Console.WriteLine(obj);
+            Console.WriteLine(newCopies);
             #endregion
         }
     }
