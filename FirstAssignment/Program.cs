@@ -1,4 +1,7 @@
-﻿namespace FirstAssignment
+﻿using System.Drawing;
+using System.Runtime.Intrinsics.X86;
+
+namespace FirstAssignment
 {
     internal class Program
     {
@@ -84,11 +87,26 @@
 
             #region Q6
             //Declare a double price = 49.99; then convert it into an int using a cast.
-            double price = 49.99;
-            int intPrice = (int)price;
+            //double price = 49.99;
+            //int intPrice = (int)price;
 
-            Console.WriteLine(intPrice);
+            //Console.WriteLine(intPrice);
             #endregion
+
+
+            #region Q7
+            //Given string pagesText = "464";,
+            //convert it into an int using the Convert class.
+            string pagesText = "464";
+
+            int pages = Convert.ToInt32(pagesText);
+
+            Console.WriteLine(pages);
+            #endregion
+
+
+
+
         }
     }
 }
