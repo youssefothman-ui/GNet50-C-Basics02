@@ -111,27 +111,38 @@ namespace FirstAssignment
             //use int.TryParse() to safely try converting it,
             //and print "Invalid number" if it fails.
 
-          
-
-            string yearText = "2023";
-            int year = int.Parse(yearText);
-
-            Console.WriteLine(year);
-
-            string badText = "abc";
 
 
-            if (int.TryParse(badText, out int number))
-            {
-                Console.WriteLine(number);
-            }
-            else
-            {
-                Console.WriteLine("Invalid number");
-            }
+            //string yearText = "2023";
+            //int year = int.Parse(yearText);
+
+            //Console.WriteLine(year);
+
+            //string badText = "abc";
+
+
+            //if (int.TryParse(badText, out int number))
+            //{
+            //    Console.WriteLine(number);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Invalid number");
+            //}
             #endregion
 
+            #region Q9
+            //Given int pages = 464;, convert it into a string using ToString()
+            //and print its type using GetType()
+            //to prove it's now a string.
 
+            int pages = 464;
+
+            string pagesText = pages.ToString();
+
+            Console.WriteLine(pagesText);
+            Console.WriteLine(pagesText.GetType());
+            #endregion
         }
     }
 }
