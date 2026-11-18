@@ -9,9 +9,6 @@ namespace FirstAssignment
         public string title;
         public int pages;
 
-        public override string ToString()
-        {
-            return $"title = {title}, pages {pages}";
-        }
+        
     }
 }
